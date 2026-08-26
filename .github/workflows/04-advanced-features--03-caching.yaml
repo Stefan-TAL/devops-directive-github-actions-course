@@ -13,7 +13,7 @@ jobs:
       # Attempt to restore (misses on first run)
       - name: Restore cache
         id: demo-cache
-        uses: actions/cache@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        uses: actions/cache@v6.1.0 # v6.1.0
         with:
           path: demo-cache
           # For info on constructing an appropriate cache key see:
@@ -31,7 +31,7 @@ jobs:
       # Save cache only if we generated new content
       - name: Save cache
         if: steps.demo-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        uses: actions/cache@v6.1.0
         with:
           path: demo-cache
           key: demo-cache-v1
