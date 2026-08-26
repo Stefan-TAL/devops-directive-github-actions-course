@@ -1,0 +1,11 @@
+{
+    "window.title": "𝐆𝐇𝐀 𝐜𝐨𝐮𝐫𝐬𝐞 | ${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+    "workbench.colorCustomizations": {
+        "sideBySideEditor.border": "#ff00ff",
+        "titleBar.activeBackground": "#ccc",
+        "titleBar.activeForeground": "#000",
+        "titleBar.inactiveBackground": "#ccc",
+        "titleBar.inactiveForeground": "#000"
+    },
+    "projectMarker.text": "GHA course"
+}
