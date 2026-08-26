@@ -24,7 +24,7 @@ on:
 
   ### https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule
   schedule:
-    - cron: "34 * * * *" # At minute 34 past every hour UTC
+    - cron: "*/10 * * * *" # Every 10 minutes UTC
 
   ## Manual Trigger
   workflow_dispatch:
